@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eeda10e-44f8-4d4d-951b-0436e52a67b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TesteEncapsulamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteEncapsulamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cliente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Conta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TesteEncapsulamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TesteEncapsulamento.class" afterDir="false" />
     </list>
@@ -78,5 +79,16 @@
       <updated>1722978423023</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
