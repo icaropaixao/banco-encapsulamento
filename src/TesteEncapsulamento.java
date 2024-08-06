@@ -5,8 +5,12 @@ public class TesteEncapsulamento {
         Conta conta = new Conta();
 
         conta.depositar(1000);
-        conta.sacar(1500);
+        conta.sacar(1000);
 
-        System.out.println(conta.saldo);
+        // MÉTODO GETTERS para pegar/retornar o valor do saldo
+        System.out.println(conta.getSaldo());
+
+
+
     }
 }

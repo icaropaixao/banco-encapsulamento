@@ -1,24 +1,25 @@
 public class Conta {
-    int agencia;
-    int numero;
-    int numeroNULLtest;
-    Cliente titular; // referencia entre objeto "  CLIENTE "
-    String titularNULLtest;
+
+
+    private int agencia;
+    private int numero;
+    private Cliente titular;
+    private int numeroNULLtest;
 
     // usando o private antes para privar a variavel
     // e poder usar dentro da propria classe
-   private double saldo;
+    private double saldo;
 
     // METODO SEM RETORNO
     public void depositar(double valorDeposito){
         // adicionando valor ao saldo
-        saldo += valorDeposito;
+        this.saldo += valorDeposito;
     }
 
     // METODO COM RETORNO
     public boolean sacar(double valorSaque){
 
-        if(saldo >= valorSaque){
+        if(this.saldo >= valorSaque){
             saldo -= valorSaque;
             return true; // APLICANDO O SAQUE CASO O SALDO SEJA > OU = 0
         }else {
@@ -39,7 +40,51 @@ public class Conta {
         }
     }
 
+    // --------------------------------------------------
+    // MÉTODOS GETTERS - Métodos que vão retornar valores
+    //MÉTODOS SETTERS- Métodos que vão atribuir valores
+
+    //exemplo para pegar o valor do saldo pois ele esta como "private"
+    // usaremos o metodo getters
+    public double getSaldo() {
+        return this.saldo; // retornando o atributo
+    }
+
+    // para atribuir um valor usa-se o método setters
+    public void setSaldo(double saldo) {
+        this.saldo = saldo; // "this" usado para especificar o atributo saldo da conta
+    } // tipo void pois não retorna nada, somente atribui
+    // double para dizer o tipo da variavel
 
 
+    public int getAgencia(){
+        return this.agencia;
+    }
+
+    public void setAgencia(int agencia){
+        if(agencia> 0 ){
+            this.agencia = agencia;
+        }
+        this.agencia = agencia;
+
+    }
+
+    public int getNumero() {
+        return this.numero;
+    }
+
+    public void setNumero(int numero){
+        this.numero = numero;
+
+    }
+
+    public Cliente getTitular(){
+        return this.titular;
+
+    }
+
+    public void setTitular(Cliente titular){
+        this.titular = titular;
+    }
 }
 
